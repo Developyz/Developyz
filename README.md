@@ -12,7 +12,7 @@
 const desarrollador = {
     nombre: "Develo",
     ubicacion: "Paraguay",
-    lenguajes: ["JavaScript", "Python", "Java", "TypeScript"],
+    lenguajes: [, "Python",],
     frameworks: ["React", "Node.js", "Express", "Vue.js"],
     baseDatos: ["MongoDB", "PostgreSQL", "MySQL"],
     herramientas: ["Git", "Docker", "AWS", "VS Code"],
@@ -26,11 +26,10 @@ const desarrollador = {
 ## 🛠️ Tecnologías y Herramientas
 
 <div align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
