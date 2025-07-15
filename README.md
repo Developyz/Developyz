@@ -13,8 +13,6 @@ const desarrollador = {
     nombre: "Develo",
     ubicacion: "Paraguay",
     lenguajes: [, "Python",],
-    frameworks: ["React", "Node.js", "Express", "Vue.js"],
-    baseDatos: ["MongoDB", "PostgreSQL", "MySQL"],
     herramientas: ["Git", "Docker", "AWS", "VS Code"],
     pasatiempos: ["Coding", "Gaming", "Música", "Deportes"],
     estadoActual: "Buscando nuevas oportunidades 🎯"
@@ -35,25 +33,10 @@ const desarrollador = {
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
 </div>
 
----
-
-## 📊 Estadísticas de GitHub
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Develo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Develo&layout=compact&langs_count=7&theme=tokyonight"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Develo&theme=tokyonight" alt="GitHub Streak" />
-</div>
-
----
-
 ## 🎯 Lo que estoy haciendo ahora
 
-- 🔭 **Trabajando en:** Proyecto personal de e-commerce con React y Node.js
-- 🌱 **Aprendiendo:** HTMLL, CSS, PYTHON Y JAVA
+- 🔭 **Trabajando en:** Proyecto personal de desarrollo weba
+- 🌱 **Aprendiendo:** HTMLL, CSS Y PYTHON 
 - 👯 **Colaborando en:** Proyectos con el team DAJI
 - 🤔 **Buscando ayuda con:** creacion de pagina web y desarrollo app
 - ⚡ **Dato curioso:** Me encanta resolver problemas de algoritmos mientras escucho música
@@ -79,15 +62,6 @@ const desarrollador = {
   </a>
 </div>
 
----
-
-## 📈 Gráfico de Contribuciones
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Develo&bg_color=1a1b27&color=be90f2&line=638fda&point=35bcbf&area=true&hide_border=true" />
-</div>
-
----
 
 
 
