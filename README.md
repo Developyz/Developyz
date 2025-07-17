@@ -35,7 +35,7 @@ const desarrollador = {
 
 ## 🎯 Lo que estoy haciendo ahora
 
-- 🔭 **Trabajando en:** Proyecto personal de desarrollo weba
+- 🔭 **Trabajando en:** Proyecto personal de desarrollo web
 - 🌱 **Aprendiendo:** HTMLL, CSS Y PYTHON 
 - 👯 **Colaborando en:** Proyectos con el team DAJI
 - 🤔 **Buscando ayuda con:** creacion de pagina web y desarrollo app
