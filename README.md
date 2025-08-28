@@ -1,4 +1,5 @@
-# ¡Hola! 👋 Soy [Develo]
+# ¡Hola! 👋 Soy Danilo Leandro Zeballo Sanabria
+   nickname de desarrollador: Develo
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=3FB950&center=true&vCenter=true&width=600&lines=Desarrollador+Full+Stack;Apasionado+por+la+tecnología;Siempre+aprendiendo+algo+nuevo" alt="Typing SVG" />
@@ -10,9 +11,9 @@
 
 ```javascript
 const desarrollador = {
-    nombre: "Develo",
+    nombre: "Danilo Leandro Zeballo Sanabria",
     ubicacion: "Paraguay",
-    lenguajes: [, "Python",],
+    lenguajes: [, "JS, HTML y CSS",],
     herramientas: ["Git", "Docker", "AWS", "VS Code"],
     pasatiempos: ["Coding", "Gaming", "Música", "Deportes"],
     estadoActual: "Buscando nuevas oportunidades 🎯"
@@ -36,8 +37,8 @@ const desarrollador = {
 ## 🎯 Lo que estoy haciendo ahora
 
 - 🔭 **Trabajando en:** Proyecto personal de desarrollo web
-- 🌱 **Aprendiendo:** HTMLL, CSS Y PYTHON 
-- 👯 **Colaborando en:** Proyectos con el team DAJI
+- 🌱 **Aprendiendo:** HTMLL, CSS Y JS
+- 👯 **Colaborando en:** Proyectos con el team DAJITECH
 - 🤔 **Buscando ayuda con:** creacion de pagina web y desarrollo app
 - ⚡ **Dato curioso:** Me encanta resolver problemas de algoritmos mientras escucho música
 
