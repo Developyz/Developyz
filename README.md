@@ -49,8 +49,8 @@ const desarrollador = {
 
 <div align="center">
 <h2>📬 Contacto</h2>
-<a href="mailto:danilozeballo@gmail.com">
-  <img src="https://img.shields.io/badge/Email-tu__correo%40gmail.com-red?logo=gmail&logoColor=white" alt="Email"/>
+<a href="mailto:tu_correo@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
   </a>
