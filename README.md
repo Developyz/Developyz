@@ -48,8 +48,11 @@ const desarrollador = {
 ## 📫 Conecta conmigo
 
 <div align="center">
-  <a href="mailto:danilozeballo@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+<h2>📬 Contacto</h2>
+<a href="mailto:danilozeballo@gmail.com">
+  <img src="https://img.shields.io/badge/Email-tu__correo%40gmail.com-red?logo=gmail&logoColor=white" alt="Email"/>
+</a>
+
   </a>
   <a href="https://www.linkedin.com/in/danilozeballo-7b068a37a/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
