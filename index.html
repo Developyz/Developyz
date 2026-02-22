@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Radio 5 Comunicaciones - 91.9 FM | La voz urbana de Guajayvi" />
+  <title>Radio 5 Comunicaciones | 91.9 FM</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio de Radio 5 Comunicaciones">
+        <span class="logo" aria-hidden="true">
+          <!-- Logo vectorial inline inspirado en la marca compartida -->
+          <svg viewBox="0 0 128 128" role="img" focusable="false">
+            <defs>
+              <linearGradient id="grad5" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0%" stop-color="#ff9800" />
+                <stop offset="100%" stop-color="#ff6a00" />
+              </linearGradient>
+            </defs>
+            <rect x="35" y="20" width="58" height="84" rx="8" fill="#f0f0f0" />
+            <path d="M52 34h36v10H70v12h18v15L63 98H46l25-33H52z" fill="url(#grad5)" />
+            <path d="M36 26c-11 0-20 9-20 20v36c0 11 9 20 20 20h7V79h-9a4 4 0 0 1 0-8h9V57h-9a4 4 0 0 1 0-8h9V26z" fill="#15171c" />
+            <path d="M92 26c11 0 20 9 20 20v36c0 11-9 20-20 20h-7V79h9a4 4 0 1 0 0-8h-9V57h9a4 4 0 1 0 0-8h-9V26z" fill="#15171c" />
+            <path d="M34 45V32c0-16 13-29 29-29h2c16 0 29 13 29 29v13h-6V32c0-12-10-22-22-22h-2c-12 0-22 10-22 22v13z" fill="#15171c" />
+          </svg>
+        </span>
+        <div>
+          <h1>Radio 5 Comunicaciones</h1>
+          <small>91.9 FM • Guajayvi</small>
+        </div>
+      </a>
+
+      <nav class="nav" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#en-vivo">En Vivo</a>
+        <a href="#programacion">Programación</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio" class="hero section-pad">
+    <div class="container layout-music">
+      <aside class="left-panel card-glass">
+        <div class="cover-block">
+          <span class="cover-label">Ahora sonando</span>
+          <h3>Radio 5 Urban Session</h3>
+          <p>La voz urbana de Guajayvi.</p>
+          <div class="cover-actions">
+            <a href="#en-vivo" class="btn-glow">Escuchar en Vivo</a>
+            <button id="heroPlayBtn" type="button" class="btn-circle" aria-label="Reproducir o pausar">▶</button>
+          </div>
+        </div>
+
+        <ul class="meta-list">
+          <li><strong>Frecuencia:</strong> 91.9 FM</li>
+          <li><strong>Ubicación:</strong> Guajayvi, Departamento de San Pedro, Paraguay</li>
+          <li><strong>Fundada:</strong> 1 de noviembre de 2019</li>
+          <li><strong>Propietario:</strong> Ramón Zeballos</li>
+          <li><strong>Tipo:</strong> Radio urbana juvenil</li>
+        </ul>
+      </aside>
+
+      <section class="right-panel">
+        <div class="hero-title-wrap">
+          <p class="eyebrow">RADIO 5 COMUNICACIONES</p>
+          <h2>La voz urbana de Guajayvi</h2>
+          <p class="subtitle">
+            <span id="dynamicSubtitle">Siempre al ritmo de tu ciudad.</span>
+          </p>
+        </div>
+
+        <article id="en-vivo" class="card-glass stream-card">
+          <div class="stream-top">
+            <h3>Streaming en Vivo</h3>
+            <span id="liveIndicator" class="live-indicator">EN VIVO ⚪</span>
+          </div>
+
+          <audio id="radioPlayer" preload="none"></audio>
+
+          <div class="stream-controls">
+            <button id="togglePlay" class="btn-glow" type="button">▶️ Play</button>
+            <button id="reloadStream" class="btn-secondary" type="button">Recargar</button>
+          </div>
+          <p class="stream-note">Edita la URL desde JavaScript: <code>const streamURL = "https://TU_STREAM_AQUI.com/stream";</code></p>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <section id="programacion" class="section-pad">
+    <div class="container">
+      <h3 class="section-title">Programación</h3>
+      <p class="section-subtitle">Ritmo continuo para la audiencia joven con bloques dinámicos y comunidad al aire.</p>
+
+      <div class="cards music-list-style">
+        <article class="card">
+          <span class="track-index">1</span>
+          <div>
+            <h4>Urban Morning Beat</h4>
+            <p>06:00 - 09:00 · DJ Kairo</p>
+          </div>
+          <span class="badge">Música + Noticias</span>
+        </article>
+
+        <article class="card">
+          <span class="track-index">2</span>
+          <div>
+            <h4>Zona Freestyle</h4>
+            <p>12:00 - 14:00 · Mili Torres</p>
+          </div>
+          <span class="badge">Urbano en vivo</span>
+        </article>
+
+        <article class="card">
+          <span class="track-index">3</span>
+          <div>
+            <h4>Night Vibes 91.9</h4>
+            <p>20:00 - 23:00 · Nico R</p>
+          </div>
+          <span class="badge">Mix nocturno</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="noticias" class="section-pad">
+    <div class="container">
+      <h3 class="section-title">Noticias</h3>
+      <p class="section-subtitle">Actualidad, cultura urbana y novedades locales con el sello Radio 5.</p>
+
+      <div class="news-grid">
+        <article class="news-card">
+          <img src="https://picsum.photos/seed/r5n1/700/420" alt="Concierto juvenil" loading="lazy" />
+          <div class="news-content">
+            <h4>Festival urbano en Guajayvi</h4>
+            <p>Una jornada de beats, talento y participación comunitaria joven.</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="https://picsum.photos/seed/r5n2/700/420" alt="Cabina de radio" loading="lazy" />
+          <div class="news-content">
+            <h4>Entrevistas exclusivas en cabina</h4>
+            <p>Artistas emergentes llegan a la 91.9 FM para compartir su proceso creativo.</p>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img src="https://picsum.photos/seed/r5n3/700/420" alt="Juventud en evento" loading="lazy" />
+          <div class="news-content">
+            <h4>Top 10 de la semana</h4>
+            <p>Conoce los temas más pedidos y vota desde redes sociales.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section-pad">
+    <div class="container">
+      <h3 class="section-title">Contacto</h3>
+      <p class="section-subtitle">Pauta comercial, saludos, propuestas o alianzas. Estamos conectados.</p>
+
+      <div class="contact-grid">
+        <div class="panel card-glass">
+          <form id="contactForm" novalidate>
+            <div>
+              <label for="name">Nombre</label>
+              <input id="name" name="name" type="text" placeholder="Tu nombre" required />
+            </div>
+            <div>
+              <label for="email">Correo electrónico</label>
+              <input id="email" name="email" type="email" placeholder="tuemail@ejemplo.com" required />
+            </div>
+            <div>
+              <label for="message">Mensaje</label>
+              <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn-glow">Enviar mensaje</button>
+            <p id="formError" class="error-msg" aria-live="polite"></p>
+            <p id="formSuccess" class="success-msg" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="panel card-glass">
+          <p class="contact-item"><strong>Teléfono:</strong> +595 971 000 000</p>
+          <p class="contact-item"><strong>Ubicación:</strong> Guajayvi, Departamento de San Pedro, Paraguay</p>
+          <p class="contact-item"><strong>Frecuencia:</strong> 91.9 FM</p>
+          <iframe
+            title="Mapa de ubicación"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Guajayvi%2C+San+Pedro%2C+Paraguay&output=embed">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-wrap">
+      <div>
+        <strong>Radio 5 Comunicaciones</strong>
+        <p>Energía joven • Comunidad • Música urbana</p>
+      </div>
+      <div class="socials" aria-label="Redes sociales">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+      </div>
+      <p>© <span id="currentYear"></span> Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Barra inferior estilo reproductor inspirada en YouTube Music -->
+  <div class="mini-player" role="complementary" aria-label="Mini reproductor">
+    <div class="mini-meta">
+      <span class="dot"></span>
+      <div>
+        <strong>Radio 5 Comunicaciones</strong>
+        <small>91.9 FM • En vivo</small>
+      </div>
+    </div>
+    <button id="bottomPlayBtn" class="btn-circle" type="button" aria-label="Play/Pause">▶</button>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
