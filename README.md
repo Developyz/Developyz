@@ -1,4 +1,4 @@
-# ¡Hola! 👋 Soy Danilo Leandro Zeballo Sanabria
+# ¡Hola! 👋 Soy Danilo Zeballo 
    nickname de desarrollador: Develo
 
 <div align="center">
